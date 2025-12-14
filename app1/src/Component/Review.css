@@ -1,0 +1,14 @@
+.review-card {
+    width: 90%;
+}
+@media (min-width: 768px) {
+    .review-card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .review-card {
+        width: 30%;
+    }
+}

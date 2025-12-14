@@ -1,0 +1,10 @@
+.calbox{
+    height: 250px;
+    background-color: #0b1c40;
+}
+
+@media (min-width: 425px) {
+    .calbtn {
+        width: 100%;
+    }
+}
