@@ -5,6 +5,7 @@ import Propertys from './Component/Propertys'
 import Option from './Component/Option'
 import Review from './Component/Review'
 import Search from './Component/Search'
+import Last from './Component/Last'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Option />
       <Review />
       <Search />
+      <Last />
     </div>
   )
 }
