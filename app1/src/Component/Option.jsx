@@ -1,5 +1,5 @@
 import React from 'react';
-import "./OPtion.css";
+import "./Option.css";
 
 const Option = () => {
     return (
