@@ -1,0 +1,110 @@
+.img {
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(#0b1c40b7), url("../assets/hero-real-estate-DK-xXGdr.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.imgtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+#textclr {
+    font-size: 55px;
+}
+
+#textclr1 {
+    color: #fabd23;
+    font-size: 51px;
+}
+
+.imgbox {
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgbtn {
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    color: white;
+    font-size: large;
+    border-radius: 8px;
+}
+
+.imgbtn1 {
+    height: 40px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.dropdown-item {
+    transition: background-color 0.5s;
+}
+
+.dropdown-item:hover {
+    background-color: #fabd23;
+}
+
+.boxtex {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#round {
+    height: 60px;
+    width: 60px;
+    background-color: #e6e8ed;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-card {
+    width: 90%;
+}
+
+.calbox {
+    height: 280px;
+    background-color: #0b1c40;
+}
+
+@media (min-width: 768px) {
+    .review-card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .review-card {
+        width: 30%;
+    }
+}
+
+@media (min-width: 425px) {
+    .calbtn {
+        width: 100%;
+    }
+}
