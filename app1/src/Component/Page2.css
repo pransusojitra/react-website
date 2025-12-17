@@ -19,6 +19,7 @@
     font-size: x-large;
 }
 
+
 #textclr {
     font-size: 55px;
 }
@@ -39,28 +40,10 @@
 
 .imgbtn {
     height: 40px;
-    width: 80px;
     background-color: white;
     color: white;
     font-size: large;
     border-radius: 8px;
-}
-
-.imgbtn1 {
-    height: 40px;
-    width: 130px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-}
-
-.dropdown-item {
-    transition: background-color 0.5s;
-}
-
-.dropdown-item:hover {
-    background-color: #fabd23;
 }
 
 .boxtex {

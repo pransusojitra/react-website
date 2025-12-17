@@ -7,29 +7,30 @@ const Propartycard = ({ img, title, price, location, beds, baths, area }) => {
     style={{
       maxWidth:"28rem",
       width:"100%",
-      minHeight:"465px"
+      // minHeight:"465px"
     }}
     >
 
+
         <img src={img} className="card-img-top" height={250} alt="property" />
-        <div className="card-body">
-          <div className="cardtx d-flex justify-content-evenly">
-            <h5 className="card-title">{title}</h5>
-            <h5 className="card-title">{price}</h5>
+        <div className="card-body p-3">
+          
+          <div className="cardtx d-flex justify-content-between">
+            <h6 className="card-title mb-1">{title}</h6>
+            <p className="card-title fw-semibold mb-1"style={{ fontSize: "14px" }}>{price}</p>
           </div>
 
-          <p className="card-text d-flex gap-1 mt-3" style={{ color: "#696f87" }}>
-            <i class="fa-solid fa-location-dot"></i>
-            <h6>{location}</h6>
+          <p className="card-text d-flex mt-3" style={{ color: "#696f87" }}>
+            <i className="fa-solid fa-location-dot me-1"></i>{location}
           </p>
 
           <div className='boxtx3 d-flex justify-content-around' style={{ color: "#696f87" }}>
-            <p><i class="fa-solid fa-bed pe-3"></i>{beds}</p>
-            <p><i class="fa-solid fa-bath pe-3"></i>{baths}</p>
-            <p><i class="fa-regular fa-square pe-3"></i>{area}</p>
+            <span><i className="fa-solid fa-bed pe-3"></i>{beds}</span>
+            <span><i className="fa-solid fa-bath pe-3"></i>{baths}</span>
+            <span><i className="fa-regular fa-square pe-3"></i>{area}</span>
           </div>
 
-          <a href="#" className="btn border border-2 w-100 "><i class="fa-regular fa-eye mx-2"></i>View Details</a>
+          <a href="#" className="btn border border-2 w-100 mt-3"><i className="fa-regular fa-eye mx-2"></i>View Details</a>
         </div>
       </div>
   );

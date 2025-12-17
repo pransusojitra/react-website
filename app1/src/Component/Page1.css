@@ -17,3 +17,11 @@
 .btn:hover {
     background-color: #fabd23;
 }
+
+.navbar-toggler{
+    transition: background-color 0.5s;
+}
+
+.navbar-toggler:hover {
+    background-color: #fabd23;
+}

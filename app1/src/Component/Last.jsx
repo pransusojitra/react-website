@@ -37,7 +37,7 @@ const Last = () => {
         </div>
         <hr className='mx-5 my-5'></hr>
         <div className='subbox3 d-flex justify-content-center mt-5' style={{ color: "#d1d5de" }}>
-          <p>© 2024 EliteHomes. All rights reserved.</p>
+          <p>© 2025 EliteHomes. All rights reserved.</p>
         </div>
       </div>
     </div>

@@ -1,0 +1,12 @@
+.propertybx{
+    width: 90%;
+    height: 60px;
+}
+
+.page-link{
+    transition: background-color 0.5s;
+}
+
+.page-link:hover {
+    background-color: #fabd23;
+}
