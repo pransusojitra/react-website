@@ -1,5 +1,5 @@
 import React from 'react';
-import "./properties.css";
+import "./Properties.css";
 import Propartycard from './Propartycard';
 import img1 from "../assets/photo1.jpeg"
 import img2 from "../assets/photo2.jpeg"

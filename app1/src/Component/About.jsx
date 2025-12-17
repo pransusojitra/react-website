@@ -1,12 +1,12 @@
-import React from 'react';
-import "./About.css";
+// import React from 'react';
+// import "./About.css";
 
-const  = () => {
-  return (
-    <div>
+// const  = () => {
+//   return (
+//     <div>
       
-    </div>
-  );
-}
+//     </div>
+//   );
+// }
 
-export default ;
+// export default ;
