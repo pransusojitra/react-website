@@ -91,7 +91,7 @@ const Page2 = () => {
                             </div>
                         </div>
 
-                        <div className="card mt-4 shadow-sm w-sm-100 w-md-50 w-lg-25" style={{ height: "200px" }}>
+                        <div className="card mt-4 shadow-sm " style={{ height: "200px" }}>
                             <div className="card-body d-flex flex-column justify-content-center align-items-center text-center">
                                 <p id='round'><i className="fa-regular fa-star fs-4"></i></p>
                                 <h5 className="card-title">Expert Guidance</h5>
@@ -99,7 +99,7 @@ const Page2 = () => {
                             </div>
                         </div>
 
-                        <div className="card mt-4 shadow-sm w-sm-100 w-md-50 w-lg-25" style={{ height: "200px" }}>
+                        <div className="card mt-4 shadow-sm" style={{ height: "200px" }}>
                             <div className="card-body d-flex flex-column justify-content-center align-items-center text-center">
                                 <p id='round'><i className="fa-solid fa-location-dot fs-4"></i></p>
                                 <h5 className="card-title">Prime Locations</h5>

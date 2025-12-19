@@ -99,9 +99,10 @@ const Properties = () => {
             </div>
           </div>
 
-          <div className="col-12 d-lg-none d-md-none d-block">
-            <div className="propertyrng border border-2  mt-3 p-2 h-auto">
 
+          <div className="col-12 d-lg-none d-md-none d-block">
+
+            <div className="propertyrng border border-2  mt-3 p-2 h-auto">
               <div className='propertyrng1 d-flex align-items-center justify-content-between'>
                 <h4 >Filters</h4>
                 <i class="fa-solid fa-bars"></i>

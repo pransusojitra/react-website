@@ -1,0 +1,92 @@
+#clk {
+  height: 60px;
+  width: 60px;
+  border: 1px;
+  border-radius: 50px;
+  font-size: 25px;
+  background-color: #e6e8ed;
+  color: #0b1c40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vlu {
+  height: 60px;
+  width: 60px;
+  border: 1px;
+  border-radius: 50px;
+  font-size: 25px;
+  background-color: #fff9eb;
+  color: #fabd23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clr {
+  color: #646f87;
+}
+
+#co1 {
+  height: 20px;
+  width: 70px;
+
+  border-radius: 20px;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#co2 {
+  height: 20px;
+  width: 140px;
+  background-color: whitesmoke;
+  font-size: small;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#grn {
+  color: #17a34a;
+}
+
+.aboutbx5 {
+  height: 300px;
+  background-color: #0b1c40;
+  color: white;
+}
+
+.aboutbtn {
+  height: 50px;
+  width: 180px;
+  border: 2px solid #0b1c40;
+  background-color: #fabd23;
+  transition: background-color 0.3s;
+}
+
+  .aboutbtn:hover {
+    background-color: #fabd23d1;
+  }
+
+.aboutbtn1 {
+  height: 50px;
+  width: 180px;
+  color: white;
+  background-color: #0b1c40;
+  transition: background-color 0.3s;
+}
+
+  .aboutbtn1:hover {
+    background-color: white;
+    color: black
+  }
+
+@media (max-width: 768px) {
+  .aboutbx1 img {
+    margin-top: 5px;
+  }
+}
