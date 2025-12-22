@@ -82,8 +82,9 @@ const Page2 = () => {
                 <div className='option1 d-flex flex-column align-items-center text-center'>
                     <h4 className='fs-2'><b>Why Choose EliteHomes?</b></h4>
                     <p style={{ color: "#696f87" }}>Your trusted partner in real estate with unmatched expertise</p>
+
                     <div className='option2 d-flex justify-content-center align-items-center flex-lg-row flex-md-row flex-column gap-3'>
-                        <div className="card mt-4 shadow-sm w-sm-100 w-md-50 w-lg-25" style={{ height: "200px" }}>
+                        <div className="card mt-4 shadow-sm review-card" style={{ height: "190px" }}>
                             <div className="card-body d-flex flex-column justify-content-center align-items-center text-center">
                                 <p id='round'><i className="fa-solid fa-check fs-4"></i></p>
                                 <h5 className="card-title">Verified Properties</h5>
@@ -91,15 +92,14 @@ const Page2 = () => {
                             </div>
                         </div>
 
-                        <div className="card mt-4 shadow-sm " style={{ height: "200px" }}>
+                        <div className="card mt-4 shadow-sm review-card" style={{ height: "190px" }}>
                             <div className="card-body d-flex flex-column justify-content-center align-items-center text-center">
                                 <p id='round'><i className="fa-regular fa-star fs-4"></i></p>
                                 <h5 className="card-title">Expert Guidance</h5>
                                 <p className="card-text" style={{ color: "#696f87" }}>Professional agents with 10+ years of experience</p>
                             </div>
                         </div>
-
-                        <div className="card mt-4 shadow-sm" style={{ height: "200px" }}>
+                        <div className="card mt-4 shadow-sm review-card" style={{ height: "190px" }}>
                             <div className="card-body d-flex flex-column justify-content-center align-items-center text-center">
                                 <p id='round'><i className="fa-solid fa-location-dot fs-4"></i></p>
                                 <h5 className="card-title">Prime Locations</h5>

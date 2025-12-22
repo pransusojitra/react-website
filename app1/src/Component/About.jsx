@@ -131,7 +131,7 @@ const About = () => {
             </div>
 
             <div className="card shadow-sm" style={{ width: "25rem" }}>
-              <img src={img2} className='rounded-top' style={{ height: "260px", objectFit: "cover" }} />
+              <img src={img3} className='rounded-top' style={{ height: "260px", objectFit: "cover" }} />
               <div className="card-body d-flex flex-column align-items-start">
                 <h5>Priya Sharma</h5>
                 <p className="card-text">Head of Sales</p>
@@ -143,7 +143,7 @@ const About = () => {
             </div>
 
             <div className="card shadow-sm" style={{ width: "25rem" }}>
-              <img src={img3} className='rounded-top' style={{ height: "260px", }} />
+              <img src={img2} className='rounded-top' style={{ height: "260px", }} />
               <div className="card-body d-flex flex-column align-items-start">
                 <h5>Amit Kumar</h5>
                 <p className="card-text">Commercial Division Head</p>
